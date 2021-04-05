@@ -19,6 +19,7 @@ export const firebaseInstance = firebase;
 const authService = firebase.auth();
 export default authService;
 
+
 export const dbService = firebase.firestore();
 
 export const storageService = firebase.storage();
